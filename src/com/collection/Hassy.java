@@ -9,5 +9,6 @@ public class Hassy {
         hm.put(2, "Python");
         hm.put(3, "JavaScript");
         System.out.println("HashMap: " + hm);
+
     }
 }
