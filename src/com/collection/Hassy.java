@@ -8,6 +8,9 @@ public class Hassy {
         hm.put(1, "Java");
         hm.put(2, "Python");
         hm.put(3, "JavaScript");
-        System.out.println("HashMap: " + hm);
+        //System.out.println("HashMap: " + hm);
+       for (Map.Entry<Integer,String> entry : hm.entrySet()){
+           System.out.println(entry.getValue());
+       }
     }
 }
